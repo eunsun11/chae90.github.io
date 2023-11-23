@@ -47,7 +47,7 @@
 		//footer top_btn   
 		$("footer").load("footer.html", function () {		
 			$(window).scroll(function() {     
-				if($(window).scrollTop() == $(document).height() - $(window).height()){
+				if (Math.round( $(window).scrollTop()) == $(document).height() - $(window).height()) {
 					$('.top_btn').addClass('on').stop().animate({'top':'-50px'},500);
 				} else {
 					$('.top_btn').removeClass('on').stop().css({'top':'0'})
