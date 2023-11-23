@@ -38,8 +38,8 @@ html, body, #wrap{height: 100%;}
 #wrap .slider{position: relative;}
 #wrap .slider .btn_prev,
 #wrap .slider .btn_next{width: 50px; height: 80px; position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; font-size: 0; color: transparent; cursor: pointer;}
-#wrap .slider .btn_prev{background: url('//chae90.dothome.co.kr/cacadew_img/cake_arrow_off.png') no-repeat center 0; left: 0; background-position: 0 0;}
-#wrap .slider .btn_next{background: url('//chae90.dothome.co.kr/cacadew_img/cake_arrow_off.png') no-repeat center 0; right: 0; background-position: right 0;}
+#wrap .slider .btn_prev{background: url('../images/cake_arrow_off.png') no-repeat center 0; left: 0; background-position: 0 0;}
+#wrap .slider .btn_next{background: url('../images/cake_arrow_off.png') no-repeat center 0; right: 0; background-position: right 0;}
 #wrap .collabo_txt{text-align: center;}
 #wrap .collabo_txt1{font-size: 60px; color: var(--main-color); margin-bottom: 10px;}
 #wrap .collabo_txt2{font-size: 32px; color: var(--white-color); letter-spacing: 7px; margin-bottom: 10px;}
