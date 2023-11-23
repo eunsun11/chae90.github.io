@@ -50,7 +50,7 @@
 				if (Math.round( $(window).scrollTop()) == $(document).height() - $(window).height()) {
 					$('.top_btn').addClass('on').stop().animate({'top':'-50px'},500);
 				} else {
-					$('.top_btn').removeClass('on').stop().css({'top':'0'})
+					$('.top_btn').removeClass('on').stop().animate({'top':'0'})
 				}
 			});
 			$('.top_btn').click(function(){
